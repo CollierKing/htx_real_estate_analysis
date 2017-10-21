@@ -163,8 +163,8 @@ len(listing_all_tot)
 
 import pymysql
 from sqlalchemy import create_engine
-engine = create_engine('mysql+pymysql://user:password@dbname/tbname',echo=False)
 
+engine = create_engine('mysql+pymysql://user:password@dbname/tbname',echo=False)
 
 # In[10]:
 
